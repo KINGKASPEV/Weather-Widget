@@ -35,16 +35,21 @@ The page will reload when you make changes.\
 
 # The project is structured as follows:
 
->> src/components/: Contains the main React components (WeatherWidget, LatLongInput).
->> src/services/: Contains the service functions for API calls.
->> src/index.js: The entry point for the React application.
->> src/App.js: The main app component.
+ src/components/: Contains the main React components (WeatherWidget, LatLongInput).
+
+ src/services/: Contains the service functions for API calls.
+
+ src/index.js: The entry point for the React application.
+
+ src/App.js: The main app component.
 
 # Features
 
->> User inputs latitude and longitude to fetch weather data.
->> Displays current temperature, high and low temperatures, wind speed, and weather conditions.
->> Retrieves and displays the location name based on coordinates.
+User inputs latitude and longitude to fetch weather data.
+
+Displays current temperature, high and low temperatures, wind speed, and weather conditions.
+
+Retrieves and displays the location name based on coordinates.
 
 ### Deployed link
 
