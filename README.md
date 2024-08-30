@@ -31,7 +31,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 
-## Project Structure
+# Project Structure
 
 # The project is structured as follows:
 
@@ -40,7 +40,7 @@ The page will reload when you make changes.\
 >> src/index.js: The entry point for the React application.
 >> src/App.js: The main app component.
 
-## Features
+# Features
 
 >> User inputs latitude and longitude to fetch weather data.
 >> Displays current temperature, high and low temperatures, wind speed, and weather conditions.
@@ -48,4 +48,4 @@ The page will reload when you make changes.\
 
 ### Deployed link
 
-You can access the deployed link here [deployment](https://myweatherupdate.vercel.app)
+You can access the deployed link here [deployment](https://myweatherwidget.vercel.app/)
