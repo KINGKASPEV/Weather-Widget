@@ -54,13 +54,7 @@ const WeatherWidget = () => {
       }
     };
 
-    const convertToLocalTime = (utcTime) => {
-      const date = new Date(utcTime);
-      // Convert to your local timezone (WAT is UTC+1)
-      return date.toLocaleString('en-US', { timeZone: 'Africa/Lagos' });
-    };
-  
-  const currentTime = weather ? convertToLocalTime(weather.current_weather.time) : '--';
+  const currentTime = weather?.current_weather?.time || '--';
   const currentTemp = weather?.current_weather?.temperature || '--';
   const highTemp = weather?.daily?.temperature_2m_max[0] || '--';
   const lowTemp = weather?.daily?.temperature_2m_min[0] || '--';
