@@ -53,7 +53,7 @@ const WeatherWidget = () => {
         alert('Unable to fetch weather data. Please try again.');
       }
     };
-
+    // Extract relevant weather information with fallback values
   const currentTime = weather?.current_weather?.time || '--';
   const currentTemp = weather?.current_weather?.temperature || '--';
   const highTemp = weather?.daily?.temperature_2m_max[0] || '--';
